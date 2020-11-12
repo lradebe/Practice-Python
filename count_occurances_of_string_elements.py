@@ -1,5 +1,5 @@
 def count_occurances_of_list_element(List,element):
-
+"""count occurances of a specific element in a list"""
     count = 0
 
     for i in List:
