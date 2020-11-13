@@ -1,5 +1,5 @@
 def clear(List):
-
+    """This function clears contents within a list"""
     print("Original list:",List)
     print("Cleared list:", [List.clear()])
 
