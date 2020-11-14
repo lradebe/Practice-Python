@@ -2,6 +2,8 @@ def simple_calculator(a, b, operator):
 
     """This is a very basic calculator that only works with two
     numbers"""
+    
+    print(a, operator, b)
 
     if operator == "+":
         c = a + b
