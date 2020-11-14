@@ -27,6 +27,6 @@ def simple_calculator(a, b, operator):
         c = a ** b
         print("Answer:",c)
 
-    print("Thank you for using this calculator.")
+    print("\nThank you for using this calculator.")
 
 simple_calculator(2,2, "-")
