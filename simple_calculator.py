@@ -9,7 +9,7 @@ def simple_calculator():
     b = input("\nWhat is the second digit? ")
     b = int(b)
     
-    print("\n\tQuestion: "a, operator, b)
+    print("\n\tQuestion: ", a, operator, b)
 
     if operator == "+":
         c = a + b
