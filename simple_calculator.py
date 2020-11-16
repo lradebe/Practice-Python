@@ -5,11 +5,11 @@ def simple_calculator():
     
     a = input("What is the first digit? ")
     a = int(a)
-    operator = input("\nSum(+), subtract(-), multiplication(*), Root(**) ")
-    b = input("What is the second digit? ")
+    operator = input("\nSum(+), subtract(-), multiplication(*), Root(**)? ")
+    b = input("\nWhat is the second digit? ")
     b = int(b)
     
-    print(a, operator, b)
+    print("\n\tQuestion: "a, operator, b)
 
     if operator == "+":
         c = a + b
