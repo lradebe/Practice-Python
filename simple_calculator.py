@@ -1,7 +1,13 @@
-def simple_calculator(a, b, operator):
+def simple_calculator():
 
     """This is a very basic calculator that only works with two
     numbers"""
+    
+    a = input("What is the first digit? ")
+    a = int(a)
+    operator = input("\nSum(+), subtract(-), multiplication(*), Root(**) ")
+    b = input("What is the second digit? ")
+    b = int(b)
     
     print(a, operator, b)
 
@@ -31,4 +37,4 @@ def simple_calculator(a, b, operator):
 
     print("\nThank you for using this calculator.")
 
-simple_calculator(2,2, "-")
+simple_calculator()
