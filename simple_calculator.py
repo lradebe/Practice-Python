@@ -5,7 +5,7 @@ def simple_calculator():
     
     a = input("What is the first digit? ")
     a = int(a)
-    operator = input("\nSum(+), subtract(-), multiplication(*), Root(**)? ")
+    operator = input("\nSum(+), subtract(-), multiplication(*), Root(**), Divide(// or /)? ")
     b = input("\nWhat is the second digit? ")
     b = int(b)
     
